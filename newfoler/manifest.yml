@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: shoyab2002/loki
+        image: shoyab2002/loki:mydockerimage
         ports:
         - containerPort: 3000   # Use port 3000
 
